@@ -1,0 +1,13 @@
+-Install bloop cli with coursier:
+    cs install bloop --only-prebuilt=true
+
+-Run bloop server:
+    bloop compile server -w
+
+
+==== SBT Commands ====
+sbt => initialize sbt-server and enter in interactive console
+run => run project
+reload => reload sbt file definitions
+projects => list all projects
+name => print project's name

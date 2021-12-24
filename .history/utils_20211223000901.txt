@@ -1,0 +1,2 @@
+Run bloop server:
+    bloop compile server -w

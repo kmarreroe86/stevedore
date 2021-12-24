@@ -1,0 +1,5 @@
+-Install bloop cli with coursier:
+    cs install bloop --only-prebuilt=true
+
+-Run bloop server:
+    bloop compile server -w
