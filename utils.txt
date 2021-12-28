@@ -11,6 +11,13 @@ run => run project
 reload => reload sbt file definitions
 projects => list all projects
 name => print project's name
+publishLocal => The publishLocal action is used to publish your project to your Ivy local file repository, which is usually located at
+                $HOME/.ivy2/local/. You can then use this project from other projects on the same machine.
 
 
-https://youtu.be/EIE-6gx_qi0?t=1653
+Plugins:
+sbt-github-actions
+    githubWorkflowGenerate => Generates (and overwrites if extant) ci.yml and clean.yml workflows according to configuration within sbt. 
+
+
+https://youtu.be/EIE-6gx_qi0?t=2541
