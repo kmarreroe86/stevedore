@@ -877,3 +877,133 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 Dec 28, 2021 2:53:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
 [0m2021.12.28 15:22:16 INFO  skipping build import with status 'Dismissed'[0m
+[0m2021.12.28 15:33:31 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\model.scala[0m
+[0m2021.12.28 15:34:27 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\model.scala[0m
+[0m2021.12.28 15:38:02 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\model.scala[0m
+Exception in thread "pool-4-thread-1" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2503)
+	at scala.meta.internal.pc.SymbolPrinter.ownerTypeString$1(SymbolPrinter.scala:46)
+	at scala.meta.internal.pc.SymbolPrinter.hoverDetailString(SymbolPrinter.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$9(ScalaPresentationCompiler.scala:337)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:341)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m2021.12.28 15:38:38 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\model.scala[0m
+[0m2021.12.28 15:38:43 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\model.scala[0m
+[0m2021.12.28 15:38:45 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\model.scala[0m
+[0m2021.12.28 17:48:58 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\model.scala[0m
+[0m2021.12.28 17:52:09 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\model.scala[0m
+[0m2021.12.28 17:55:18 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\model.scala[0m
+Exception in thread "pool-4-thread-2" dotty.tools.dotc.core.TypeError: bad parameter reference F at typer
+the parameter is type F in trait Executor but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = List()
+	at dotty.tools.dotc.core.Types$NamedType.argDenot(Types.scala:2304)
+	at dotty.tools.dotc.core.Types$NamedType.fromDesignator$1(Types.scala:2218)
+	at dotty.tools.dotc.core.Types$NamedType.computeDenot(Types.scala:2236)
+	at dotty.tools.dotc.core.Types$NamedType.denot(Types.scala:2191)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2179)
+	at dotty.tools.dotc.core.Types$TypeRef.underlying(Types.scala:2671)
+	at dotty.tools.dotc.core.Types$TypeProxy.superType(Types.scala:1919)
+	at dotty.tools.dotc.core.Types$Type.classSymbol(Types.scala:498)
+	at dotty.tools.dotc.transform.TypeUtils$.tupleArity(TypeUtils.scala:59)
+	at dotty.tools.dotc.printing.RefinedPrinter.appliedText$2(RefinedPrinter.scala:223)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText$$anonfun$1(RefinedPrinter.scala:234)
+	at dotty.tools.dotc.printing.MessageLimiter.controlled(MessageLimiter.scala:23)
+	at dotty.tools.dotc.printing.PlainPrinter.controlled(PlainPrinter.scala:35)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText(RefinedPrinter.scala:300)
+	at scala.meta.internal.pc.SymbolPrinter.typeString(SymbolPrinter.scala:25)
+	at scala.meta.internal.pc.SymbolPrinter.defaultMethodSignature(SymbolPrinter.scala:154)
+	at scala.meta.internal.pc.SymbolPrinter.hoverDetailString(SymbolPrinter.scala:64)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$9(ScalaPresentationCompiler.scala:337)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:341)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "pool-4-thread-3" dotty.tools.dotc.core.TypeError: bad parameter reference F at typer
+the parameter is type F in trait Executor but the prefix <noprefix>
+does not define any corresponding arguments.
+idx = 0, args = List()
+	at dotty.tools.dotc.core.Types$NamedType.argDenot(Types.scala:2304)
+	at dotty.tools.dotc.core.Types$NamedType.fromDesignator$1(Types.scala:2218)
+	at dotty.tools.dotc.core.Types$NamedType.computeDenot(Types.scala:2236)
+	at dotty.tools.dotc.core.Types$NamedType.denot(Types.scala:2191)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2179)
+	at dotty.tools.dotc.core.Types$TypeRef.underlying(Types.scala:2671)
+	at dotty.tools.dotc.core.Types$TypeProxy.superType(Types.scala:1919)
+	at dotty.tools.dotc.core.Types$Type.classSymbol(Types.scala:498)
+	at dotty.tools.dotc.transform.TypeUtils$.tupleArity(TypeUtils.scala:59)
+	at dotty.tools.dotc.printing.RefinedPrinter.appliedText$2(RefinedPrinter.scala:223)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText$$anonfun$1(RefinedPrinter.scala:234)
+	at dotty.tools.dotc.printing.MessageLimiter.controlled(MessageLimiter.scala:23)
+	at dotty.tools.dotc.printing.PlainPrinter.controlled(PlainPrinter.scala:35)
+	at dotty.tools.dotc.printing.RefinedPrinter.toText(RefinedPrinter.scala:300)
+	at scala.meta.internal.pc.SymbolPrinter.typeString(SymbolPrinter.scala:25)
+	at scala.meta.internal.pc.SymbolPrinter.defaultMethodSignature(SymbolPrinter.scala:154)
+	at scala.meta.internal.pc.SymbolPrinter.hoverDetailString(SymbolPrinter.scala:64)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$9(ScalaPresentationCompiler.scala:337)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:341)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[0m2021.12.28 17:57:26 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 17:57:34 INFO  compiling server (1 scala source)[0m
+[0m2021.12.28 17:57:36 INFO  time: compiled server in 2.19s[0m
+[0m2021.12.28 17:57:41 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\model.scala[0m
+[0m2021.12.28 18:01:46 INFO  compiling server (1 scala source)[0m
+[0m2021.12.28 18:01:46 INFO  time: compiled server in 0.24s[0m
+[0m2021.12.28 18:01:57 INFO  compiling server (1 scala source)[0m
+[0m2021.12.28 18:01:57 INFO  time: compiled server in 0.15s[0m
+[0m2021.12.28 18:05:31 INFO  compiling server (1 scala source)[0m
+[0m2021.12.28 18:05:31 INFO  time: compiled server in 0.14s[0m
+[0m2021.12.28 18:07:11 INFO  compiling server (1 scala source)[0m
+[0m2021.12.28 18:07:11 INFO  time: compiled server in 81ms[0m
+[0m2021.12.28 18:12:03 INFO  compiling server (1 scala source)[0m
+[0m2021.12.28 18:12:03 INFO  time: compiled server in 0.64s[0m
+[0m2021.12.28 18:13:17 INFO  compiling server (1 scala source)[0m
+[0m2021.12.28 18:13:17 INFO  time: compiled server in 0.45s[0m
+[0m2021.12.28 18:17:14 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 18:17:57 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\test\scala\steve\ExecutorTests.scala[0m
+[0m2021.12.28 18:18:59 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\test\scala\steve\ExecutorTests.scala[0m
+[0m2021.12.28 18:20:59 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\test\scala\steve\ExecutorTests.scala[0m
+[0m2021.12.28 18:21:38 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\test\scala\steve\ExecutorTests.scala[0m
+[0m2021.12.28 18:26:57 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 18:29:08 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\test\scala\steve\ExecutorTests.scala[0m
+[0m2021.12.28 18:29:39 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\test\scala\steve\ExecutorTests.scala[0m
+[0m2021.12.28 18:31:47 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 18:32:20 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 18:32:22 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 18:32:29 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 18:32:33 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 18:33:18 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 18:34:38 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\model.scala[0m
+[0m2021.12.28 18:35:45 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\test\scala\steve\ExecutorTests.scala[0m
+[0m2021.12.28 18:54:03 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 18:56:05 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 18:56:25 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 18:57:08 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 18:59:38 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 19:01:37 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 19:01:43 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 19:05:06 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\main\scala\steve\Executor.scala[0m
+[0m2021.12.28 19:07:00 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\test\scala\steve\ExecutorTests.scala[0m
+[0m2021.12.28 19:09:17 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\test\scala\steve\ExecutorTests.scala[0m
+[0m2021.12.28 19:09:48 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\test\scala\steve\ExecutorTests.scala[0m
+[0m2021.12.28 19:12:58 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\test\scala\steve\ExecutorTests.scala[0m
+[0m2021.12.28 19:15:57 WARN  no build target for: J:\scala\scala-study\stevedore\shared\src\test\scala\steve\ExecutorTests.scala[0m
